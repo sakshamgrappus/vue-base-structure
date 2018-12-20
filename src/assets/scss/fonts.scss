@@ -1,0 +1,62 @@
+//fonts
+
+$font-rubik-light: Rubik-Light;
+$font-rubik-medium: Rubik-Medium;
+$font-rubik-regular: Rubik-Regular;
+$font-din-pro-bold: DINPro-Bold;
+$font-din-pro-medium: DINPro-Medium;
+
+@font-face {
+  font-family: $font-rubik-light;
+  src: url('~@/../public/fonts/Rubik/Rubik-Light.eot');
+  src: url('~@/../public/fonts/Rubik/Rubik-Light.eot?#iefix') format('embedded-opentype'),
+  url('~@/../public/fonts/Rubik/Rubik-Light.woff2') format('woff2'),
+  url('~@/../public/fonts/Rubik/Rubik-Light.woff') format('woff'),
+  url('~@/../public/fonts/Rubik/Rubik-Light.ttf') format('truetype'),
+  url('~@/../public/fonts/Rubik/Rubik-Light.svg#Rubik-Light') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-rubik-medium;
+  src: url('~@/../public/fonts/Rubik/Rubik-Medium.eot');
+  src: url('~@/../public/fonts/Rubik/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+  url('~@/../public/fonts/Rubik/Rubik-Medium.woff2') format('woff2'),
+  url('~@/../public/fonts/Rubik/Rubik-Medium.woff') format('woff'),
+  url('~@/../public/fonts/Rubik/Rubik-Medium.ttf') format('truetype'),
+  url('~@/../public/fonts/Rubik/Rubik-Medium.svg#Rubik-Medium') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-rubik-regular;
+  src: url('~@/../public/fonts/Rubik/Rubik-Regular.eot');
+  src: url('~@/../public/fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+  url('~@/../public/fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+  url('~@/../public/fonts/Rubik/Rubik-Regular.woff') format('woff'),
+  url('~@/../public/fonts/Rubik/Rubik-Regular.ttf') format('truetype'),
+  url('~@/../public/fonts/Rubik/Rubik-Regular.svg#Rubik-Regular') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-din-pro-bold;
+  src: url('~@/../public/fonts/DinPro/DINPro-Bold.eot');
+  src: url('~@/../public/fonts/DinPro/DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('~@/../public/fonts/DinPro/DINPro-Bold.woff2') format('woff2'),
+  url('~@/../public/fonts/DinPro/DINPro-Bold.woff') format('woff'),
+  url('~@/../public/fonts/DinPro/DINPro-Bold.ttf') format('truetype'),
+  url('~@/../public/fonts/DinPro/DINPro-Bold.svg#DINPro-Bold') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-din-pro-medium;
+  src: url('~@/../public/fonts/DinPro/DINPro-Medium.eot');
+  src: url('~@/../public/fonts/DinPro/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('~@/../public/fonts/DinPro/DINPro-Medium.woff2') format('woff2'),
+  url('~@/../public/fonts/DinPro/DINPro-Medium.woff') format('woff'),
+  url('~@/../public/fonts/DinPro/DINPro-Medium.ttf') format('truetype'),
+  url('~@/../public/fonts/DinPro/DINPro-Medium.svg#DINPro-Medium') format('svg');
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.scss';
+
+
+#app {
+  font-family: $font-rubik-medium;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
