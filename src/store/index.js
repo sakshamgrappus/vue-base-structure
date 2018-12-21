@@ -1,11 +1,12 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
-import ui from './ui';
-
-Vue.use(Vuex);
+import Vue from 'vue'
+import Vuex from 'vuex'
+import login from './module/login'
+import ui from './module/ui'
+Vue.use(Vuex)
 
 export default new Vuex.Store({
   modules: {
-    ui,
-  },
-});
+    login,
+    ui
+  }
+})
