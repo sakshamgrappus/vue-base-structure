@@ -65,7 +65,7 @@ For example: file name is header.html and its parent container class should be "
 
 examples:
 
-- actions : requestDeleteUser(), requestCreateUser(), requestUpdateUser(), requestGetUser()
+- actions : deleteUserRequest(), createUserRequest(), updateUseRequestr(), getUserRequest()
 - mutations : setUser(), setUserDetails()
 - state : userList, userDetails,
 
